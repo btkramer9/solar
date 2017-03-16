@@ -1,0 +1,9 @@
+[package]
+name = "solar"
+version = "0.1.0"
+authors = ["Brian"]
+
+[dependencies]
+curl = "0.4.6"
+time = "0.1.36"
+regex = "0.2"
