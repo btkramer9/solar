@@ -20,8 +20,10 @@ fn main() {
 	let root = "http://aa.usno.navy.mil/cgi-bin/aa_altazw.pl?form=1&body=10";
 	let place = "tempe";
 	let state = "AZ";
+	
 	let today = time::now();
 	let day = today.tm_mday;
+
 	let month = today.tm_mon + 1;
 	let year = today.tm_year + 1900;
 	let interval = 1;
